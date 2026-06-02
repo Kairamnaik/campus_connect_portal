@@ -23,33 +23,32 @@ This project supports three user roles:
 - **Student**: view personal profile, attendance, and marks history.
 
 ## Languages and Technologies Used
-Languages
+Languages:
+JavaScript,
+JSX,
+HTML,
+CSS,
+JSON.
 
-JavaScript
-JSX
-HTML
-CSS
-JSON
+Frontend:
+React,
+Vite,
+React Router DOM.
 
-Frontend
-React
-Vite
-React Router DOM
+Backend:
+Node.js,
+Express.js.
 
-Backend
-Node.js
-Express.js
+MongoDB:
+Mongoose.
 
-MongoDB
-Mongoose
+Authentication / Security:
+JSON Web Tokens (JWT),
+bcryptjs.
 
-Authentication / Security
-JSON Web Tokens (JWT)
-bcryptjs
-
-Other tools
-dotenv
-cors
+Other tools:
+dotenv,
+cors.
 
 ### Frameworks and Libraries
 
