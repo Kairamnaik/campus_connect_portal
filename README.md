@@ -6,7 +6,8 @@ Admin: gmail:admin@gmail.com password:admin123
 
 Teacher: gmail:teacher1@gmail.com password:teacher123
 
-Student: bhukyakairam47@gmail.com password:kairam and sign_up(register) to access the portel
+Student: bhukyakairam47@gmail.com password:kairam &&
+sign_up(register) to access the portel
 
 
 
