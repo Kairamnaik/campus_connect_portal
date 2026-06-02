@@ -6,7 +6,7 @@ Admin: gmail:admin@gmail.com password:admin123
 
 Teacher: gmail:teacher1@gmail.com password:teacher123
 
-Student: sign_up(register) to login
+Student: bhukyakairam47@gmail.com password:kairam and sign_up(register) to access the portel
 
 
 
@@ -130,8 +130,8 @@ npm run dev
   - Password: `teacher123`
 
 - **Student**
-  - Email: `rayudu@gmail.com`
-  - Password: `rayudu`
+  - Email: `bhukyakairam47@mail.com` and sign_up(register) to access the portel
+  - Password: `kairam`
 
 ## Notes
 
@@ -143,5 +143,5 @@ npm run dev
 
 A deployed version is available at:
 
-`https://rayudu-collegeportal.vercel.app`
+`https://campus-connect-portall.vercel.app/signup`
 # Campus_Connect_Portal
