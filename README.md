@@ -1,3 +1,16 @@
+Deployed Project Link: https://campus-connect-portall.vercel.app/signup
+
+Sample Credentials:
+
+Admin: gmail:admin@gmail.com password:admin123
+
+Teacher: gmail:teacher1@gmail.com password:teacher123
+
+Student: sign_up(register) to login
+
+
+
+
 # Campus Connect Portal
 
 A College Student Portal built using the MERN stack with a React frontend and Node.js/Express backend.
@@ -10,12 +23,33 @@ This project supports three user roles:
 - **Student**: view personal profile, attendance, and marks history.
 
 ## Languages and Technologies Used
+Languages
 
-- JavaScript
-- JSX
-- HTML
-- CSS
-- JSON
+JavaScript
+JSX
+HTML
+CSS
+JSON
+
+Frontend
+React
+Vite
+React Router DOM
+
+Backend
+Node.js
+Express.js
+
+MongoDB
+Mongoose
+
+Authentication / Security
+JSON Web Tokens (JWT)
+bcryptjs
+
+Other tools
+dotenv
+cors
 
 ### Frameworks and Libraries
 
