@@ -1,98 +1,114 @@
-Deployed Project Link:rayudu-collegeportal.vercel.app
+# Campus Connect Portal
 
-Sample Credentials:
+A College Student Portal built using the MERN stack with a React frontend and Node.js/Express backend.
 
-Admin:
-gmail:admin@gmail.com
-password:admin123
+## Overview
 
-Teacher:
-gmail:teacher1@gmail.com
-password:teacher123
+This project supports three user roles:
+- **Admin**: manage students and teachers, view attendance and marks.
+- **Teacher**: record attendance, add marks, and view assigned students.
+- **Student**: view personal profile, attendance, and marks history.
 
-Student:
-gmail:rayudu@gmail.com
-password:rayudu
+## Languages and Technologies Used
 
+- JavaScript
+- JSX
+- HTML
+- CSS
+- JSON
 
+### Frameworks and Libraries
 
-
-
-
-
-
-
-
-# College Student Portal (MERN Stack)
-
-A beginner-friendly College Student Portal built using the MERN stack (MongoDB, Express.js, React, Node.js). This project implements simple, readable, and easy-to-understand patterns without using advanced abstract concepts.
-
-## Tech Stack
-- **Frontend**: React (Vite), Plain CSS (No Tailwind, No Bootstrap)
+- **Frontend**: React, Vite, react-router-dom
 - **Backend**: Node.js, Express.js
-- **Database**: Local MongoDB (Mongoose)
-- **Auth**: JWT stored in localStorage
+- **Database**: MongoDB with Mongoose
+- **Authentication**: JWT
+- **Styling**: plain CSS
 
-## Three Distinct Roles
+## Features
 
-### 1. Admin
-- Route: `/admin-login`
-- Responsibilities: Manage Students, Manage Teachers, View Student Attendance, View Student Marks. Data overview via stats cards.
-- Color Scheme: Deep Blue (`#1a237e`)
+- Role-based login and protected routes
+- Admin dashboard with management controls
+- Teacher dashboard for attendance and marks
+- Student dashboard for attendance and grade tracking
+- JWT authentication with client-side storage
 
-### 2. Teacher
-- Route: `/teacher-login`
-- Responsibilities: Mark student attendance, add student marks, view their own authored records and profile.
-- Color Scheme: Teal (`#00695c`)
+## Folder Structure
 
-### 3. Student
-- Route: `/student-login`
-- Responsibilities: View own profile, track attendance percentage, view attendance and marks history.
-- Color Scheme: Purple (`#4a148c`)
+- `backend/`
+  - `server.js` - main Express server
+  - `controllers/` - request handlers for admin, auth, student, teacher
+  - `models/` - MongoDB models for users, attendance, marks, notices, complaints
+  - `routes/` - API route definitions
+  - `middleware/` - authentication middleware
+  - `seed.js` - initial data seeding script
+
+- `frontend/`
+  - `src/` - React application source
+  - `components/` - reusable UI and route protection components
+  - `pages/` - login pages and dashboard pages for each role
+  - `styles/` - CSS files for page styling
 
 ## Setup Instructions
 
-This project requires Node.js and a local running instance of MongoDB. 
+### 1. Install dependencies
 
-1. **Install Dependencies**
-   Navigate to both the `backend` and `frontend` folders and run `npm install`:
-   ```bash
-   cd backend
-   npm install
+```bash
+cd backend
+npm install
 
-   cd ../frontend
-   npm install
-   ```
+cd ../frontend
+npm install
+```
 
-2. **Start MongoDB**
-   Start your local MongoDB server (typically on `mongodb://localhost:27017`). Ensure it's running before proceeding.
+### 2. Start MongoDB
 
-3. **Seed Database**
-   Since roles are predefined in the system, you need an initial set of users. A seed script is included.
-   ```bash
-   cd backend
-   node seed.js
-   ```
-   *This script generates `Super Admin` (admin123), 2 Teachers (teacher123), and 3 Students (student123).*
+Run your MongoDB server locally on `mongodb://localhost:27017`.
 
-4. **Start Backend Server**
-   ```bash
-   cd backend
-   node server.js
-   ```
-   *The server runs on http://localhost:5000*
+### 3. Seed the database
 
-5. **Start Frontend App**
-   Open a new terminal session.
-   ```bash
-   cd frontend
-   npm run dev
-   ```
-   *Vite will provide a localhost URL to view the React app.*
+```bash
+cd backend
+node seed.js
+```
 
-## Project Structure Notes
+### 4. Run the backend
 
-- **Basic API Calls**: All API calls utilize native `fetch()`, keeping dependencies minimal and learning scope focused on core web technologies.
-- **State Management**: Only generic `useState` and `useEffect` react hooks are utilized.
-- **Routing**: Setup via `react-router-dom` with simple rendering constraints within `<ProtectedRoute>`.
-# campus_Connect_Portal
+```bash
+cd backend
+node server.js
+```
+
+### 5. Run the frontend
+
+```bash
+cd frontend
+npm run dev
+```
+
+## Sample Credentials
+
+- **Admin**
+  - Email: `admin@gmail.com`
+  - Password: `admin123`
+
+- **Teacher**
+  - Email: `teacher1@gmail.com`
+  - Password: `teacher123`
+
+- **Student**
+  - Email: `rayudu@gmail.com`
+  - Password: `rayudu`
+
+## Notes
+
+- Make sure MongoDB is running before starting the backend.
+- The application uses local storage for JWT tokens.
+- The frontend is built with React and plain CSS for simplicity.
+
+## Deployment
+
+A deployed version is available at:
+
+`https://rayudu-collegeportal.vercel.app`
+# Campus_Connect_Portal
