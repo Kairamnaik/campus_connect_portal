@@ -1,0 +1,11 @@
+.student-login-bg {
+  background: radial-gradient(circle at bottom left, rgba(124, 58, 237, 0.18), transparent 35%), linear-gradient(180deg, #faf5ff 0%, #fff7fe 100%);
+}
+
+.student-theme h2 {
+  color: #5b21b6;
+}
+
+.login-submit-btn {
+  background-color: #5b21b6;
+}

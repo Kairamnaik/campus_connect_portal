@@ -1,0 +1,11 @@
+.teacher-login-bg {
+  background: radial-gradient(circle at top right, rgba(16, 185, 129, 0.18), transparent 35%), linear-gradient(180deg, #eafaf5 0%, #f9fffe 100%);
+}
+
+.teacher-theme h2 {
+  color: #0f766e;
+}
+
+.login-submit-btn {
+  background-color: #0f766e;
+}
