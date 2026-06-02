@@ -9,6 +9,7 @@ const app = express();
 const corsOptions = {
   origin: [
     'https://rayudu-collegeportal.vercel.app',
+    'https://campus-connect-portall.vercel.app',
     'http://localhost:5173',
     'http://127.0.0.1:5173'
   ],
