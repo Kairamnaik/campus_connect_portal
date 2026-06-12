@@ -10,8 +10,6 @@ Student: bhukyakairam47@gmail.com password:kairam &&
 sign_up(register) to access the portel
 
 
-
-.
 # Campus Connect Portal
 
 A College Student Portal built using the MERN stack with a React frontend and Node.js/Express backend.
